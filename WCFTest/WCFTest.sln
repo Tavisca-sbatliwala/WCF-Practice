@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFTest", "WCFTest\WCFTest.csproj", "{38DA8890-001A-4DBA-8C84-EAAABA642EE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer", "Consumer\Consumer.csproj", "{FFE324C4-6F62-414E-B1BC-EAF283AB3428}"
+	ProjectSection(ProjectDependencies) = postProject
+		{38DA8890-001A-4DBA-8C84-EAAABA642EE3} = {38DA8890-001A-4DBA-8C84-EAAABA642EE3}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38DA8890-001A-4DBA-8C84-EAAABA642EE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38DA8890-001A-4DBA-8C84-EAAABA642EE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38DA8890-001A-4DBA-8C84-EAAABA642EE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38DA8890-001A-4DBA-8C84-EAAABA642EE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFE324C4-6F62-414E-B1BC-EAF283AB3428}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFE324C4-6F62-414E-B1BC-EAF283AB3428}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFE324C4-6F62-414E-B1BC-EAF283AB3428}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFE324C4-6F62-414E-B1BC-EAF283AB3428}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
